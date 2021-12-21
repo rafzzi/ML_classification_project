@@ -4,12 +4,15 @@ This application uses ML models MultinomialNB and AdaBoosterClassifier
 to classify users on buyers or not buyers according to their behavior
 during access on  certain website
 
+
+
 Files:
   main.py
   classifier_searches.py
   datasets.py
   serialization.py
   searches.csv
+  requirements.txt
   
 -> main.py
 Example on how to properly split train, test and validation datasets 
@@ -31,3 +34,7 @@ Optional loading algorithm for pickle dumps.
 
 -> searches.csv
 CSV file with dataset to be analysed.
+
+-> requirements.txt
+Required libraries to run the code, install with:
+pip install -r requirements.txt
