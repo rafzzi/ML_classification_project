@@ -31,4 +31,4 @@ taxa_de_acerto = 100.0 * total_de_acertos/total_de_elementos
 
 print(f'score in real world of winner algorithm (validation data): {round(taxa_de_acerto,2)}%')           
 print(f'base score: {calculate_base_score(y_validate)}%')
-print(f'number of validations: {len(X_validate)}')
+print(f'number of validations: {len(X_validate)}') 
